@@ -1,20 +1,21 @@
-using System.Threading;
-// using System.Threading.Tasks.Dataflow;
-using System.Collections;
-using System.Collections.Generic;
+using TMPro;
+using System;
 using UnityEngine;
-using System.Threading.Tasks;
-using Vector3 = UnityEngine.Vector3;
+using UnityEngine.UI; 
+
 
 public class Bullet : MonoBehaviour
 {
 
     public Vector3 targetVector; 
-    public int speed = 20;
+    public int speed = 15;
+    
+    private float bulletLifeTime = 2.0f;
+
     // Start is called before the first frame update
     void Start()
     {
-        Destroy(gameObject, 1.0f);
+        Destroy(gameObject,bulletLifeTime);
     }
 
     // Update is called once per frame
@@ -23,17 +24,32 @@ public class Bullet : MonoBehaviour
         transform.Translate(targetVector * speed * Time.deltaTime);
     }
 
-   private void OnCollisionEnter2D(Collision2D collision)
-    {
-        // collision variable - contains information about the collision
+   private void OnTriggerEnter2D(Collider2D other)
+   {
+       if (other.gameObject.tag == "Enemy")
+       {
+           Destroy(other.gameObject);
+           
+		   IncreaseScore();
+       }
+   }
 
-        if (collision.gameObject.tag == "Enemy")
+    public void IncreaseScore()
+    {
+
+        Player.SCORE = Player.SCORE + Meteor.points ;
+        UpdateScoreText();
+    }
+
+    private void UpdateScoreText()
+    {
+        GameObject go = GameObject.FindGameObjectWithTag("UI");
+        go.GetComponent<Text>().text = "Score: " + Player.SCORE;
+
+        if (Player.SCORE >= 2)
         {
-            Destroy(collision.gameObject);
-            Destroy(gameObject);
+            Application.LoadLevel("BigBoss");
         }
     }
+
 }
-
-
-// OnTriggerEnter implement

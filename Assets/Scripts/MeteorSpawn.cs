@@ -1,13 +1,5 @@
-using System.Linq.Expressions;
-using System.Security.Cryptography;
 using System;
-using System.Numerics;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using Vector2 = UnityEngine.Vector2;
-// using Vector3 = UnityEngine.Vector3;
-using Quaternion = UnityEngine.Quaternion;
 using Random = UnityEngine.Random;
 
 public class MeteorSpawn : MonoBehaviour
@@ -17,7 +9,7 @@ public class MeteorSpawn : MonoBehaviour
     public GameObject MeteorPrefab;
 
     private float spawnNext = 0;
-    public float spawnRatePerMinute = 60;
+    public float spawnRatePerMinute = 30;
     public float spawnRateIncrement = 1;
 
     // Start is called before the first frame update
@@ -34,9 +26,10 @@ public class MeteorSpawn : MonoBehaviour
             // spawnRatePerMinute += spawnRateIncrement;
 
             //create random number for the position in x axis
-
-            var random = Random.Range(-40,40);
-            var spawnPosition = new Vector2(random, 50);
+            //var random = Random.Range(-40,40);
+            var random = Random.Range(-Player.xBorderLimit, Player.xBorderLimit);
+            // add random range with border limit
+            var spawnPosition = new Vector2(random, Player.yBorderLimit);
 
             // Instantiate(MeteorPrefab, transform.position, Quaternion.identity);
             Instantiate(MeteorPrefab, spawnPosition, Quaternion.identity);
