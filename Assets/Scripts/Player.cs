@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.UI;
 public class Player : MonoBehaviour
 {
 
@@ -14,16 +15,29 @@ public class Player : MonoBehaviour
 	
 	public static int SCORE = 0;
 
+    public static int maxMissiles = 10;
+
+    
+    public static int NoMissiles = 0;
+
+    public static int moreAvailable = 10;
+
     public static float xBorderLimit, yBorderLimit;
 
     public GameObject Bullet;
 
+	public GameObject Missile;
+
     public GameObject Gun;
+
+    public GameObject bossy;
+
     
     // Start is called before the first frame update
     void Start()
     {
         _rigid = GetComponent<Rigidbody2D>();
+        
         yBorderLimit = Camera.main.orthographicSize+1;
         xBorderLimit = (Camera.main.orthographicSize+1) * Screen.width / Screen.height;
 
@@ -62,6 +76,41 @@ public class Player : MonoBehaviour
             Bullet bulletScript = bullet.GetComponent<Bullet>();
 
             bulletScript.targetVector = transform.right;
+        }
+
+		if (Input.GetKeyDown(KeyCode.RightAlt))
+        {
+            if (NoMissiles <= maxMissiles)
+            {
+
+                GameObject warning = GameObject.FindGameObjectWithTag("warn");
+                warning.GetComponent<Text>().text = "Number of Missiles Available : " + moreAvailable;
+
+
+                GameObject missile = Instantiate(Missile, Gun.transform.position, Quaternion.identity);
+
+                Missile missileScript = missile.GetComponent<Missile>();
+
+                missileScript.targetVector = transform.right;
+
+                NoMissiles++;
+
+                moreAvailable = maxMissiles - NoMissiles;
+                
+            }
+            else
+            {
+                GameObject warning = GameObject.FindGameObjectWithTag("warn");
+                warning.GetComponent<Text>().text = "WARNING YOU HAVE RUN OUT OF MISSILES!!!";
+            }
+        }
+
+
+        if (Player.SCORE ==  1)
+        {
+            bossy.SetActive(true);
+            
+
         }
 
 

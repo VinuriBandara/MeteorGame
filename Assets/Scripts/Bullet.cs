@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class Bullet : MonoBehaviour
 {
 
+
     public Vector3 targetVector; 
     public int speed = 15;
     
@@ -46,10 +47,12 @@ public class Bullet : MonoBehaviour
         GameObject go = GameObject.FindGameObjectWithTag("UI");
         go.GetComponent<Text>().text = "Score: " + Player.SCORE;
 
-        if (Player.SCORE >= 2)
+    
+        if (Player.SCORE == 1)
         {
-            Application.LoadLevel("BigBoss");
+            GameObject spawn = GameObject.FindGameObjectWithTag("spawn1");
+            spawn.SetActive(false);
         }
-    }
 
+    }
 }

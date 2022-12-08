@@ -1,0 +1,298 @@
+﻿{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1670517302076219, "dur": 1141542, "ph": "X", "name": "Build ScriptAssembliesAndTypeDB", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1670517302077422, "dur": 14328, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1670517302091873, "dur": 68463, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1670517302160399, "dur": 306156, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1670517302466559, "dur": 740969, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1670517303207552, "dur": 10207, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1670517303849785, "dur": 12481936, "ph": "X", "name": "Build ScriptAssembliesAndTypeDB", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1670517303849815, "dur": 49461, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1670517303899279, "dur": 70276, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1670517303969559, "dur": 569794, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1670517304539358, "dur": 11782259, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1670517316321621, "dur": 10098, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1670517330314993, "dur": 499347, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1670517330315248, "dur": 4295, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1670517330319545, "dur": 47700, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1670517330367249, "dur": 330560, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1670517330697814, "dur": 115444, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1670517330813261, "dur": 1079, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1670517330814474, "dur": 56, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1670517330572240, "dur": 108816, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1670517330573228, "dur": 45449, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1670517330662017, "dur": 5114, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1670517330667134, "dur": 13915, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1670517330668057, "dur": 12630, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1670517330686099, "dur": 1800, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1670517330685563, "dur": 2374, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1670517330814596, "dur": 54, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1670517330756917, "dur":2298, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670517330759276, "dur":188, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670517330759476, "dur":678, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670517330760167, "dur":50380, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670517330810614, "dur":527, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1670517330759337, "dur":836, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670517330760175, "dur":340, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670517330760811, "dur":158, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1670517330760973, "dur":253, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/vinu/Vinuri/Unity-Editors/2022.1.20f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/linux64_player_nondevelopment_mono/Data/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":1, "ts":1670517330760972, "dur":254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vinu/Vinuri/Unity/New_Data/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":1, "ts":1670517330761542, "dur":71, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":1, "ts":1670517330761616, "dur":223, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/vinu/Vinuri/Unity-Editors/2022.1.20f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/linux64_player_nondevelopment_mono/Data/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1670517330761616, "dur":223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vinu/Vinuri/Unity/New_Data/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1670517330762010, "dur":416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1670517330762429, "dur":182, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/vinu/Vinuri/Unity-Editors/2022.1.20f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/linux64_player_nondevelopment_mono/Data/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1670517330762428, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vinu/Vinuri/Unity/New_Data/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1670517330762620, "dur":88, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1670517330762714, "dur":1298, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/vinu/Vinuri/Unity/MeteorGame/Temp/StagingArea/Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670517330762714, "dur":1299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vinu/Vinuri/Unity/New_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670517330764019, "dur":6670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670517330770692, "dur":327, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/vinu/Vinuri/Unity/MeteorGame/Temp/StagingArea/Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670517330770692, "dur":328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vinu/Vinuri/Unity/New_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670517330771025, "dur":566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670517330771658, "dur":1554, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/vinu/Vinuri/Unity/MeteorGame/Temp/StagingArea/Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670517330771658, "dur":1554, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vinu/Vinuri/Unity/New_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670517330773217, "dur":1576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670517330774829, "dur":79, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670517330774934, "dur":71, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670517330775030, "dur":61, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670517330775145, "dur":117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670517330775287, "dur":647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670517330775971, "dur":60, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670517330776078, "dur":107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670517330776207, "dur":113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670517330776323, "dur":653, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/vinu/Vinuri/Unity/MeteorGame/Temp/StagingArea/Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670517330776323, "dur":653, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vinu/Vinuri/Unity/New_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670517330776983, "dur":2016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670517330779015, "dur":178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/MonoBleedingEdge/etc/config" }}
+,{ "pid":12345, "tid":1, "ts":1670517330779221, "dur":69, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670517330779478, "dur":5591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Plugins/lib_burst_generated.so" }}
+,{ "pid":12345, "tid":1, "ts":1670517330785073, "dur":25423, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670517330759351, "dur":828, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670517330760180, "dur":382, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670517330760564, "dur":467, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/vinu/Vinuri/Unity/MeteorGame/Temp/StagingArea/Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670517330760562, "dur":470, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vinu/Vinuri/Unity/New_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670517330761036, "dur":382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670517330762214, "dur":255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1670517330762506, "dur":75, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670517330762596, "dur":47864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/UnityPlayer.so" }}
+,{ "pid":12345, "tid":3, "ts":1670517330759381, "dur":805, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670517330760187, "dur":329, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670517330760525, "dur":134, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/vinu/Vinuri/Unity/MeteorGame/Temp/StagingArea/Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670517330760518, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vinu/Vinuri/Unity/New_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670517330760753, "dur":228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670517330760984, "dur":179, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/vinu/Vinuri/Unity-Editors/2022.1.20f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/linux64_player_nondevelopment_mono/Data/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1670517330760984, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vinu/Vinuri/Unity/New_Data/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1670517330761546, "dur":65, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1670517330761615, "dur":161, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/vinu/Vinuri/Unity/MeteorGame/Temp/StagingArea/Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670517330761614, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vinu/Vinuri/Unity/New_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670517330761783, "dur":380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670517330762175, "dur":7218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1670517330769398, "dur":134, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/vinu/Vinuri/Unity/MeteorGame/Temp/StagingArea/Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670517330769398, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vinu/Vinuri/Unity/New_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670517330769538, "dur":259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670517330769887, "dur":1975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670517330771896, "dur":81, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670517330772067, "dur":52, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670517330772143, "dur":55, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670517330772572, "dur":74, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670517330772672, "dur":57, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670517330772732, "dur":80, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/vinu/Vinuri/Unity/MeteorGame/Temp/StagingArea/Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670517330772731, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vinu/Vinuri/Unity/New_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670517330772817, "dur":165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670517330773122, "dur":63, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/vinu/Vinuri/Unity/MeteorGame/Temp/StagingArea/Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670517330773122, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vinu/Vinuri/Unity/New_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670517330773190, "dur":180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670517330773535, "dur":1310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670517330774876, "dur":77, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670517330774984, "dur":76, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670517330775062, "dur":99, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/vinu/Vinuri/Unity/MeteorGame/Temp/StagingArea/Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670517330775062, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vinu/Vinuri/Unity/New_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670517330775166, "dur":4395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670517330779572, "dur":193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1670517330779866, "dur":67, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1670517330779941, "dur":677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1670517330780622, "dur":87, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/vinu/Vinuri/Unity/MeteorGame/Temp/StagingArea/Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670517330780622, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vinu/Vinuri/Unity/New_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670517330780721, "dur":267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670517330780990, "dur":29498, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670517330759397, "dur":795, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670517330760192, "dur":329, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670517330760527, "dur":715, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/vinu/Vinuri/Unity/MeteorGame/Temp/StagingArea/Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670517330760522, "dur":729, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vinu/Vinuri/Unity/New_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670517330761259, "dur":1489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670517330762752, "dur":1512, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/vinu/Vinuri/Unity/MeteorGame/Temp/StagingArea/Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670517330762751, "dur":1514, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vinu/Vinuri/Unity/New_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670517330764272, "dur":3165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670517330767609, "dur":138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1670517330767750, "dur":140, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/vinu/Vinuri/Unity/MeteorGame/Temp/StagingArea/Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670517330767750, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vinu/Vinuri/Unity/New_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670517330767895, "dur":290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670517330768261, "dur":238, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/vinu/Vinuri/Unity/MeteorGame/Temp/StagingArea/Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670517330768261, "dur":238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vinu/Vinuri/Unity/New_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670517330768504, "dur":476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670517330768983, "dur":68, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/vinu/Vinuri/Unity/MeteorGame/Temp/StagingArea/Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670517330768983, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vinu/Vinuri/Unity/New_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670517330769056, "dur":313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670517330769373, "dur":142, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/vinu/Vinuri/Unity/MeteorGame/Temp/StagingArea/Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670517330769372, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vinu/Vinuri/Unity/New_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670517330769520, "dur":275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670517330769827, "dur":101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670517330770034, "dur":56, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670517330770125, "dur":71, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670517330770311, "dur":142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670517330770456, "dur":150, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/vinu/Vinuri/Unity/MeteorGame/Temp/StagingArea/Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670517330770455, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vinu/Vinuri/Unity/New_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670517330770611, "dur":606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670517330771219, "dur":549, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/vinu/Vinuri/Unity/MeteorGame/Temp/StagingArea/Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670517330771219, "dur":550, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vinu/Vinuri/Unity/New_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670517330771774, "dur":1390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670517330773196, "dur":92, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670517330773573, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/vinu/Vinuri/Unity/MeteorGame/Temp/StagingArea/Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670517330773572, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vinu/Vinuri/Unity/New_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670517330773635, "dur":1807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670517330775468, "dur":5296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670517330780766, "dur":29720, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1670517330759412, "dur":785, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1670517330760197, "dur":340, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1670517330760546, "dur":447, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/vinu/Vinuri/Unity/MeteorGame/Temp/StagingArea/Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670517330760538, "dur":456, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vinu/Vinuri/Unity/New_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670517330760999, "dur":396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670517330761540, "dur":5054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/MonoBleedingEdge/x86_64/libmonobdwgc-2.0.so" }}
+,{ "pid":12345, "tid":5, "ts":1670517330766599, "dur":438, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/vinu/Vinuri/Unity/MeteorGame/Temp/StagingArea/Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670517330766598, "dur":440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vinu/Vinuri/Unity/New_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670517330767044, "dur":959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670517330768009, "dur":78, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/vinu/Vinuri/Unity/MeteorGame/Temp/StagingArea/Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670517330768009, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vinu/Vinuri/Unity/New_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670517330768093, "dur":138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670517330768269, "dur":74, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670517330768373, "dur":66, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670517330768480, "dur":68, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Resources/UnityPlayer.png" }}
+,{ "pid":12345, "tid":5, "ts":1670517330768684, "dur":129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1670517330768989, "dur":373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1670517330769367, "dur":73, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/vinu/Vinuri/Unity/MeteorGame/Temp/StagingArea/Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670517330769366, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vinu/Vinuri/Unity/New_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670517330769446, "dur":156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670517330769670, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vinu/Vinuri/Unity/New_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670517330769725, "dur":109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670517330769931, "dur":84, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670517330770018, "dur":56, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/vinu/Vinuri/Unity/MeteorGame/Temp/StagingArea/Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670517330770017, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vinu/Vinuri/Unity/New_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670517330770081, "dur":129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670517330770303, "dur":54, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670517330770386, "dur":85, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670517330770561, "dur":53, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670517330770617, "dur":361, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/vinu/Vinuri/Unity/MeteorGame/Temp/StagingArea/Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670517330770617, "dur":362, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vinu/Vinuri/Unity/New_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670517330770985, "dur":807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670517330771796, "dur":73, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/vinu/Vinuri/Unity/MeteorGame/Temp/StagingArea/Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670517330771796, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vinu/Vinuri/Unity/New_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670517330771875, "dur":162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670517330772082, "dur":97, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670517330772235, "dur":148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670517330772402, "dur":205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New.x86_64" }}
+,{ "pid":12345, "tid":5, "ts":1670517330772637, "dur":52, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670517330772722, "dur":61, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670517330772836, "dur":113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670517330772974, "dur":54, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670517330773082, "dur":54, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/vinu/Vinuri/Unity/MeteorGame/Temp/StagingArea/Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670517330773082, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vinu/Vinuri/Unity/New_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670517330773141, "dur":174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670517330773345, "dur":52, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670517330773432, "dur":74, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670517330773541, "dur":5569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670517330779131, "dur":7552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1670517330786689, "dur":23793, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670517330759430, "dur":771, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670517330760201, "dur":337, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670517330760541, "dur":398, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/vinu/Vinuri/Unity/MeteorGame/Temp/StagingArea/Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670517330760539, "dur":401, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vinu/Vinuri/Unity/New_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670517330760945, "dur":355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670517330762210, "dur":387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1670517330762601, "dur":1986, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/vinu/Vinuri/Unity/MeteorGame/Temp/StagingArea/Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670517330762601, "dur":1986, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vinu/Vinuri/Unity/New_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670517330764594, "dur":5287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670517330769933, "dur":351, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/vinu/Vinuri/Unity/MeteorGame/Temp/StagingArea/Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670517330769933, "dur":351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vinu/Vinuri/Unity/New_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670517330770297, "dur":704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670517330771004, "dur":2955, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/vinu/Vinuri/Unity/MeteorGame/Temp/StagingArea/Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670517330771004, "dur":2955, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vinu/Vinuri/Unity/New_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670517330773965, "dur":4500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670517330778491, "dur":61, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670517330778574, "dur":54, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670517330778654, "dur":62, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670517330778735, "dur":69, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670517330778818, "dur":2410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/MonoBleedingEdge/x86_64/libMonoPosixHelper.so" }}
+,{ "pid":12345, "tid":6, "ts":1670517330781231, "dur":29307, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670517330759453, "dur":754, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670517330760208, "dur":316, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670517330760531, "dur":349, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/vinu/Vinuri/Unity/MeteorGame/Temp/StagingArea/Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670517330760528, "dur":353, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vinu/Vinuri/Unity/New_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670517330760901, "dur":484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670517330761387, "dur":213, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/vinu/Vinuri/Unity-Editors/2022.1.20f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/linux64_player_nondevelopment_mono/Data/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1670517330761387, "dur":214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vinu/Vinuri/Unity/New_Data/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1670517330761608, "dur":54, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1670517330762213, "dur":138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1670517330762368, "dur":144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1670517330762515, "dur":6986, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/vinu/Vinuri/Unity-Editors/2022.1.20f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/linux64_player_nondevelopment_mono/Data/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1670517330762515, "dur":6987, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vinu/Vinuri/Unity/New_Data/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1670517330769510, "dur":85, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1670517330769599, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/vinu/Vinuri/Unity/MeteorGame/Temp/StagingArea/Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670517330769598, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vinu/Vinuri/Unity/New_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670517330769662, "dur":165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670517330769850, "dur":2020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670517330771895, "dur":63, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670517330771969, "dur":1615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1670517330773634, "dur":1753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670517330775419, "dur":3969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670517330779406, "dur":1016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":7, "ts":1670517330780458, "dur":89, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670517330780570, "dur":60, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670517330780653, "dur":55, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670517330780711, "dur":29779, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670517330759467, "dur":745, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670517330760212, "dur":306, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670517330760531, "dur":282, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/vinu/Vinuri/Unity/MeteorGame/Temp/StagingArea/Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670517330760521, "dur":292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vinu/Vinuri/Unity/New_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670517330760823, "dur":182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670517330761414, "dur":140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1670517330761691, "dur":366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1670517330762060, "dur":212, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/vinu/Vinuri/Unity-Editors/2022.1.20f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/linux64_player_nondevelopment_mono/Data/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1670517330762059, "dur":214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vinu/Vinuri/Unity/New_Data/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1670517330762278, "dur":127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1670517330762418, "dur":3360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/MonoBleedingEdge/x86_64/libmono-native.so" }}
+,{ "pid":12345, "tid":8, "ts":1670517330765784, "dur":81, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/vinu/Vinuri/Unity/MeteorGame/Temp/StagingArea/Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670517330765784, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vinu/Vinuri/Unity/New_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670517330765871, "dur":172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670517330766112, "dur":111, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/vinu/Vinuri/Unity/MeteorGame/Temp/StagingArea/Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670517330766111, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vinu/Vinuri/Unity/New_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670517330766229, "dur":236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670517330766468, "dur":164, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/vinu/Vinuri/Unity/MeteorGame/Temp/StagingArea/Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670517330766468, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vinu/Vinuri/Unity/New_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670517330766638, "dur":4403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670517330771045, "dur":145, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/vinu/Vinuri/Unity/MeteorGame/Temp/StagingArea/Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670517330771044, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vinu/Vinuri/Unity/New_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670517330771196, "dur":285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670517330771483, "dur":184, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/vinu/Vinuri/Unity/MeteorGame/Temp/StagingArea/Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670517330771483, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vinu/Vinuri/Unity/New_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670517330771673, "dur":354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670517330772061, "dur":70, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670517330772170, "dur":81, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670517330772290, "dur":1758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670517330774071, "dur":5231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670517330779632, "dur":77, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/vinu/Vinuri/Unity/MeteorGame/Temp/StagingArea/Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670517330779632, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vinu/Vinuri/Unity/New_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670517330779716, "dur":219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670517330779961, "dur":55, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670517330780084, "dur":54, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/level1" }}
+,{ "pid":12345, "tid":8, "ts":1670517330780277, "dur":374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1670517330780661, "dur":4235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vinu/Vinuri/Unity/New_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1670517330784899, "dur":25642, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670517330811517, "dur":142, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1670517330814665, "dur": 250, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1670517330814460, "dur": 461, "ph": "X", "name": "Write chrome-trace events", "args": {} },

@@ -381,9 +381,13 @@
 -r:"Library/Bee/artifacts/2400b0aE.dag/Unity.VisualStudio.Editor.ref.dll"
 -r:"Library/Bee/artifacts/2400b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/2400b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/Scripts/Boss.cs"
 "Assets/Scripts/Bullet.cs"
+"Assets/Scripts/Laser.cs"
+"Assets/Scripts/LaserSpawner.cs"
 "Assets/Scripts/Meteor.cs"
 "Assets/Scripts/MeteorSpawn.cs"
+"Assets/Scripts/Missile.cs"
 "Assets/Scripts/Player.cs"
 -langversion:9.0
 
