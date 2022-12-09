@@ -1,20 +1,7 @@
-using System.Dynamic;
-using System.Net;
-using System.Globalization;
-using System.Runtime;
-using System.Buffers;
-using System.Security.Cryptography.X509Certificates;
-using System.ComponentModel;
-using System.Linq.Expressions;
-using System.Security.Cryptography;
-using System.Threading;
-using System.Reflection;
-using System.Diagnostics;
 using TMPro;
 using System;
 using UnityEngine;
 using UnityEngine.UI; 
-using Debug = UnityEngine.Debug;
 
 
 public class Bullet : MonoBehaviour
@@ -28,7 +15,7 @@ public class Bullet : MonoBehaviour
     
     private float bulletLifeTime = 1.0f;
 
-    public static int playerLevel1 = 4;
+    public static int playerLevel1 = 5;
     
 
     // Start is called before the first frame update
@@ -55,10 +42,9 @@ public class Bullet : MonoBehaviour
 
        if (other.gameObject.tag == "boss")
        {
-            // other.gameObject.SetActive(false);
             ReduceLife();
-            // GameObject go = GameObject.FindGameObjectWithTag("UI");
-            // go.GetComponent<Text>().text = "You are done!!";
+            IncreaseScore();
+
        }
    }
 

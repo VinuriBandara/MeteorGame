@@ -14,6 +14,7 @@ public class Missile : MonoBehaviour
 
     public static int playerLevel1 = 5;
 
+    public static int maxMissiles = 10;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,6 +25,8 @@ public class Missile : MonoBehaviour
     void Update()
     {
         transform.Translate(targetVector * speed * Time.deltaTime);
+
+
     }
 
    private void OnTriggerEnter2D(Collider2D other)
@@ -37,10 +40,8 @@ public class Missile : MonoBehaviour
 
         if (other.gameObject.tag == "boss")
        {
-            // other.gameObject.SetActive(false);
             ReduceLife();
-            // GameObject go = GameObject.FindGameObjectWithTag("UI");
-            // go.GetComponent<Text>().text = "You are done!!";
+            IncreaseScore();
        }
    }
 
@@ -66,7 +67,7 @@ public class Missile : MonoBehaviour
 
     public void ReduceLife()
     {
-        Boss.bossHits = Boss.bossHits+1;
+        Boss.bossHits = Boss.bossHits+2;
 
         Boss.timeLeft  = Boss.bossLifeTime - Boss.bossHits;
         GameObject bsscr = GameObject.FindGameObjectWithTag("bossHealth");

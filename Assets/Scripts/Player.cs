@@ -1,12 +1,7 @@
-using System.Security.Cryptography.X509Certificates;
-using System.Diagnostics;
-using System.ComponentModel;
-using System.Threading;
-using System.Linq.Expressions;
-using System.ComponentModel.Design.Serialization;
 using System;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 public class Player : MonoBehaviour
 {
 
@@ -17,13 +12,13 @@ public class Player : MonoBehaviour
     // use moving forward and sides for rotation
     public float forwardspeed = 2.0f;
 
-	public float rotationspeed = 60.0f;
+	public float rotationspeed = 120.0f;
 	
 	public static int SCORE = 0;
 
     public static int maxMissiles = 10;
 
-    public static int playerLevel1 = 4;
+    public static int playerLevel1 = 5;
     
     public static int NoMissiles = 0;
 
@@ -95,13 +90,8 @@ public class Player : MonoBehaviour
 
 		if (Input.GetKeyDown(KeyCode.RightAlt))
         {
-            if (NoMissiles <= maxMissiles)
+            if (NoMissiles < maxMissiles)
             {
-
-                GameObject warning = GameObject.FindGameObjectWithTag("warn");
-                warning.GetComponent<Text>().text = "Number of Missiles Available : " + moreAvailable;
-
-
                 GameObject missile = Instantiate(Missile, Gun.transform.position, Quaternion.identity);
 
                 Missile missileScript = missile.GetComponent<Missile>();
@@ -111,12 +101,18 @@ public class Player : MonoBehaviour
                 NoMissiles++;
 
                 moreAvailable = maxMissiles - NoMissiles;
-                
-            }
-            else
-            {
                 GameObject warning = GameObject.FindGameObjectWithTag("warn");
-                warning.GetComponent<Text>().text = "WARNING YOU HAVE RUN OUT OF MISSILES!!!";
+                
+            
+                if (NoMissiles == maxMissiles)
+                {
+                    warning.GetComponent<Text>().text = "WARNING YOU HAVE RUN OUT OF MISSILES!!!";
+                }
+                else
+                {
+                    warning.GetComponent<Text>().text = "        Number of Missiles Available : " + moreAvailable;
+                    
+                }
             }
         }
 
@@ -136,10 +132,17 @@ public class Player : MonoBehaviour
 
         if (Boss.bossHits == Boss.bossLifeTime)
         {
+
+            GameObject bsscr = GameObject.FindGameObjectWithTag("bossHealth");
+            bsscr.GetComponent<Text>().text = "Boss Health : "+ Boss.timeLeft;
+            
             bossy.SetActive(false);
             LaserSpawn.SetActive(false);
             LaserSpawn2.SetActive(false);
             LaserSpawn3.SetActive(false);
+
+            GameObject won = GameObject.FindGameObjectWithTag("win");
+            won.GetComponent<Text>().text = "You've won!!";
         }
  
     }
@@ -150,9 +153,21 @@ public class Player : MonoBehaviour
 
         if (collision.gameObject.tag == "Enemy")
         {
-            Application.LoadLevel(Application.loadedLevel); // Load the loaded level
+            SceneManager.LoadScene("MainScene");
 			SCORE = 0 ;
+            NoMissiles = 0;
+            maxMissiles = 10;
+        }
+
+        if (collision.gameObject.tag == "boss")
+        {
+            SceneManager.LoadScene("MainScene");
+			SCORE = 0 ;
+            NoMissiles = 0;
+            maxMissiles = 10;
+            
         }
     }
+
 
 }

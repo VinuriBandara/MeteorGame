@@ -1,7 +1,4 @@
-using System.Runtime.InteropServices;
 using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
@@ -30,11 +27,9 @@ public class LaserSpawner : MonoBehaviour
 
             //create random number for the position in x axis
             var random = Random.Range(-6,-12);
-            // var random = Random.Range(-Player.xBorderLimit, Player.xBorderLimit );
-            // add random range with border limit
             var spawnPosition = new Vector2(random,10);
 
-            // Instantiate(MeteorPrefab, transform.position, Quaternion.identity);
+
             Instantiate(LaserSpawn, spawnPosition, Quaternion.identity);
         }
     }

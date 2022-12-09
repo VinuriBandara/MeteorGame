@@ -25,11 +25,10 @@ public class LaserSpawnerM : MonoBehaviour
 
             //create random number for the position in x axis
             var random = Random.Range(-2,2);
-            // var random = Random.Range(-Player.xBorderLimit, Player.xBorderLimit );
+
             // add random range with border limit
             var spawnPosition = new Vector2(random,7);
 
-            // Instantiate(MeteorPrefab, transform.position, Quaternion.identity);
             Instantiate(LaserSpawn3, spawnPosition, Quaternion.identity);
         }
 
