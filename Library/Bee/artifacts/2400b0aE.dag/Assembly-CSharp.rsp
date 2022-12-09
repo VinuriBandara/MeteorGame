@@ -385,6 +385,8 @@
 "Assets/Scripts/Bullet.cs"
 "Assets/Scripts/Laser.cs"
 "Assets/Scripts/LaserSpawner.cs"
+"Assets/Scripts/LaserSpawnerM.cs"
+"Assets/Scripts/LaserSpawnerR.cs"
 "Assets/Scripts/Meteor.cs"
 "Assets/Scripts/MeteorSpawn.cs"
 "Assets/Scripts/Missile.cs"

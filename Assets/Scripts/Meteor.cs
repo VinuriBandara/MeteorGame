@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Meteor : MonoBehaviour
 {
-    float maxLifeTime = 4.0f;
+    float maxLifeTime = 6.0f;
 
     public static int points = 1;
 

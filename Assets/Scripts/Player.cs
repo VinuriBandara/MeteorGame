@@ -1,3 +1,9 @@
+using System.Security.Cryptography.X509Certificates;
+using System.Diagnostics;
+using System.ComponentModel;
+using System.Threading;
+using System.Linq.Expressions;
+using System.ComponentModel.Design.Serialization;
 using System;
 using UnityEngine;
 using UnityEngine.UI;
@@ -9,14 +15,15 @@ public class Player : MonoBehaviour
     Vector2 forwardDirection;
     
     // use moving forward and sides for rotation
-    public float forwardspeed = 4.0f;
+    public float forwardspeed = 2.0f;
 
-	public float rotationspeed = 80.0f;
+	public float rotationspeed = 60.0f;
 	
 	public static int SCORE = 0;
 
     public static int maxMissiles = 10;
 
+    public static int playerLevel1 = 4;
     
     public static int NoMissiles = 0;
 
@@ -31,6 +38,14 @@ public class Player : MonoBehaviour
     public GameObject Gun;
 
     public GameObject bossy;
+
+    public GameObject LaserSpawn;
+
+    public GameObject LaserSpawn2;
+
+    public GameObject LaserSpawn3;
+
+
 
     
     // Start is called before the first frame update
@@ -106,14 +121,27 @@ public class Player : MonoBehaviour
         }
 
 
-        if (Player.SCORE ==  1)
+        if (Player.SCORE ==  playerLevel1)
         {
+            Player.SCORE = Player.SCORE + 0;
             bossy.SetActive(true);
-            
 
+            LaserSpawn.SetActive(true);
+            LaserSpawn2.SetActive(true);
+            LaserSpawn3.SetActive(true);
+
+            
         }
 
 
+        if (Boss.bossHits == Boss.bossLifeTime)
+        {
+            bossy.SetActive(false);
+            LaserSpawn.SetActive(false);
+            LaserSpawn2.SetActive(false);
+            LaserSpawn3.SetActive(false);
+        }
+ 
     }
 
     // if the component has a collider can add this function
@@ -126,4 +154,5 @@ public class Player : MonoBehaviour
 			SCORE = 0 ;
         }
     }
+
 }

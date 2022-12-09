@@ -4,20 +4,16 @@ using UnityEngine;
 
 public class Laser : MonoBehaviour
 {
-    public Vector3 targetVector; 
-    public int speed = 10;
-    
-    private float laserLifeTime = 2.0f;
+    float maxLifeTime = 10.0f;
+
+    public static int points = 1;
+
+    private float speed = 8.0f;
     // Start is called before the first frame update
     void Start()
     {
-        Destroy(gameObject,laserLifeTime);
+        Destroy(gameObject, maxLifeTime); //with a timer
+        GetComponent<Rigidbody2D>().AddForce(new Vector3(0, -speed * 120, 0));
 
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        transform.Translate(targetVector * -speed * Time.deltaTime);
     }
 }
